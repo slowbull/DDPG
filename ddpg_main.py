@@ -127,6 +127,7 @@ def main(_):
                 env_render=FLAGS.env_render, summary_dir=SUMMARY_DIR)
 
         agent.train()
+        env.close()
 
 if __name__ == '__main__':
     tf.app.run()
