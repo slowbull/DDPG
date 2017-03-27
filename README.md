@@ -14,5 +14,11 @@ Results:
 ```python ddpg_main.py -env_name='MountainCarContinuous-v0'```
 
 Results:
-![car-v0](./assets/car-v0.png)
+![MountainCarContinuous-v0](./assets/MountainCarContinuous-v0.png)
+
+### LunarLanderContinuous-v2
+```python ddpg_main.py -env_name='LunarLanderContinuous-v2'```
+
+Results:
+![LunarLanderContinuous-v2](./assets/LunarLanderContinuous-v2.png)
 
